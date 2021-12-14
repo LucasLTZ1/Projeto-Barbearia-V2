@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
@@ -18,14 +21,14 @@
             <div class="menu">
                 <ul class="grid">
                     <li><a href="#home" class="title">Home</a></li>
-                    <li><a href="#sobre" class="title">Sobre</a></li>
+                    <li><a href="#about" class="title">Sobre</a></li>
                     <li><a href="#servicos" class="title">Serviços</a></li>
                     <li><a href="#depoimentos" class="title">Depoimentos</a></li>
                     <li><a href="#contato" class="title">Contato</a></li>
                 </ul>
             </div>
-            <div class="toggle icon-menu"><img src="https://img.icons8.com/material-outlined/24/000000/menu--v1.png"/></div>
-            <div class="toggle icon-close"><img src="https://img.icons8.com/windows/32/000000/xbox-x.png"/></div>
+            <div class="toggle icon-menu"><img src="https://img.icons8.com/material-outlined/24/000000/menu--v1.png" alt=""/></div>
+            <div class="toggle icon-close"><img src="https://img.icons8.com/windows/32/000000/xbox-x.png" alt=""/></div>
         </nav>
     </header>
     
@@ -43,6 +46,7 @@
                 </div>
             </section>
             <div class="line-right"></div>
+
             <section class="section" id="about">
                 <div class="container grid">
                     <div class="image">
@@ -65,6 +69,7 @@
                         <h2 class="title">Serviços</h2>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, ab porro. Laborum rem ullam, voluptatibus tempore fugiat sint repellat, maiores eligendi voluptatum, eos nostrum hic suscipit dolores reprehenderit accusamus amet?</p>
                     </header>
+                    <div class="cards grid">
                     <div class="card">
                         <h3 class="title">Terapia Capilar</h3>
                         <svg class="icon" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
@@ -97,9 +102,118 @@ viewBox="0 0 172 172"
 style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g><path d="M29.5625,64.5h69.875v59.125h-69.875z" fill="#cccccc"></path><path d="M73.36875,90.46125c1.02139,1.9575 1.65989,4.09192 1.88125,6.28875c-0.0047,4.80811 -3.19621,9.03056 -7.82063,10.34687c-0.95273,0.27104 -1.93885,0.40674 -2.92937,0.40313c-5.93706,0 -10.75,-4.81294 -10.75,-10.75c0,-5.93937 10.75,-21.5 10.75,-21.5c3.33211,4.84174 6.29666,9.92639 8.86875,15.21125z" fill="#cccccc"></path><path d="M74.2825,101.1575c-1.30206,2.88957 -3.80782,5.06123 -6.85313,5.93937c-0.95273,0.27104 -1.93885,0.40674 -2.92937,0.40313c-5.93706,0 -10.75,-4.81294 -10.75,-10.75c0,-5.93937 10.75,-21.5 10.75,-21.5c0,0 0.37625,0.5375 0.99438,1.45125c-2.95625,4.945 -6.36938,11.34125 -6.36938,14.67375c0,5.93706 4.81294,10.75 10.75,10.75c0.99053,0.00362 1.97664,-0.13209 2.92937,-0.40313c0.51099,-0.13622 1.00638,-0.32537 1.47813,-0.56437z" fill="#333333"></path><path d="M77.9375,8.0625v5.375h-8.0625l-2.6875,5.375h-5.375l-2.6875,-5.375h-8.0625v-5.375c0.00885,-2.96486 2.41014,-5.36615 5.375,-5.375h16.125c2.96486,0.00885 5.36615,2.41014 5.375,5.375z" fill="#000000"></path><path d="M77.9375,13.4375v16.6625c-1.7692,-0.35837 -3.56987,-0.53843 -5.375,-0.5375h-16.125c-1.80513,-0.00093 -3.6058,0.17913 -5.375,0.5375v-16.6625h8.0625l2.6875,5.375h5.375l2.6875,-5.375z" fill="#333333"></path><path d="M99.4375,64.5h-69.875v-8.0625c-0.00786,-7.1301 2.82109,-13.97043 7.86283,-19.01217c5.04174,-5.04174 11.88207,-7.87069 19.01217,-7.86283h16.125c7.1301,-0.00786 13.97043,2.82109 19.01217,7.86283c5.04174,5.04174 7.87069,11.88207 7.86283,19.01217z" fill="#333333"></path><path d="M99.4375,123.625v29.5625c0,8.90559 -7.21941,16.125 -16.125,16.125h-37.625c-8.90559,0 -16.125,-7.21941 -16.125,-16.125v-29.5625z" fill="#333333"></path><path d="M51.0625,8.0625v5.375h8.0625l2.6875,5.375h5.375l2.6875,-5.375h8.0625v-5.375z" fill="#cccccc"></path><rect x="11" y="24" transform="scale(2.6875,2.6875)" width="5" height="22" fill="#cccccc"></rect><path d="M68.61188,29.5625c-14.14013,0.01186 -25.60002,11.47174 -25.61187,25.61188v9.32562h-13.4375v-8.0625c-0.00786,-7.1301 2.82109,-13.97043 7.86283,-19.01217c5.04174,-5.04174 11.88207,-7.87069 19.01217,-7.86283z" fill="#333333"></path><path d="M98.49688,158.5625c-2.26274,6.44601 -8.35276,10.75753 -15.18438,10.75h-37.625c-8.90559,0 -16.125,-7.21941 -16.125,-16.125v-29.5625h13.4375c0,19.29545 15.64205,34.9375 34.9375,34.9375z" fill="#333333"></path><path d="M91.375,83.3125c-2.96853,0 -5.375,-2.40647 -5.375,-5.375v-5.375c0,-2.96853 2.40647,-5.375 5.375,-5.375c2.96853,0 5.375,2.40647 5.375,5.375v5.375c0,2.96853 -2.40647,5.375 -5.375,5.375z" fill="#000000"></path><path d="M99.4375,64.5h69.875v59.125h-69.875z" fill="#cccccc"></path><path d="M153.1875,102.125c-0.002,5.40652 -4.01908,9.97036 -9.38162,10.65857c-5.36254,0.6882 -10.40186,-2.71339 -11.76901,-7.94419l-0.1075,-0.43c4.62442,-1.31632 7.81593,-5.53877 7.82062,-10.34687c-0.22136,-2.19683 -0.85986,-4.33125 -1.88125,-6.28875c2.41875,-4.00437 4.56875,-7.14875 4.56875,-7.14875c0,0 10.75,15.56063 10.75,21.5z" fill="#333333"></path><path d="M137.86875,87.77375c1.02139,1.9575 1.65989,4.09192 1.88125,6.28875c-0.0047,4.80811 -3.19621,9.03056 -7.82062,10.34687c-0.95273,0.27104 -1.93885,0.40674 -2.92938,0.40313c-5.93706,0 -10.75,-4.81294 -10.75,-10.75c0,-5.93937 10.75,-21.5 10.75,-21.5c3.33211,4.84174 6.29666,9.92639 8.86875,15.21125z" fill="#cccccc"></path><path d="M138.7825,98.47c-1.30206,2.88957 -3.80782,5.06123 -6.85312,5.93937c-0.95273,0.27104 -1.93885,0.40674 -2.92938,0.40313c-5.93706,0 -10.75,-4.81294 -10.75,-10.75c0,-5.93937 10.75,-21.5 10.75,-21.5c0,0 0.37625,0.5375 0.99437,1.45125c-2.95625,4.945 -6.36937,11.34125 -6.36937,14.67375c0,5.93706 4.81294,10.75 10.75,10.75c0.99053,0.00362 1.97664,-0.13209 2.92938,-0.40313c0.51099,-0.13622 1.00638,-0.32537 1.47812,-0.56437z" fill="#333333"></path><path d="M147.8125,8.0625v5.375h-8.0625l-2.6875,5.375h-5.375l-2.6875,-5.375h-8.0625v-5.375c0.00885,-2.96486 2.41014,-5.36615 5.375,-5.375h16.125c2.96486,0.00885 5.36615,2.41014 5.375,5.375z" fill="#000000"></path><path d="M147.8125,13.4375v16.6625c-1.7692,-0.35837 -3.56987,-0.53843 -5.375,-0.5375h-16.125c-1.80513,-0.00093 -3.6058,0.17913 -5.375,0.5375v-16.6625h8.0625l2.6875,5.375h5.375l2.6875,-5.375z" fill="#333333"></path><path d="M169.3125,64.5h-69.875v-8.0625c-0.00786,-7.1301 2.82109,-13.97043 7.86283,-19.01217c5.04174,-5.04174 11.88207,-7.87069 19.01217,-7.86283h16.125c7.1301,-0.00786 13.97043,2.82109 19.01217,7.86283c5.04174,5.04174 7.87069,11.88207 7.86283,19.01217z" fill="#333333"></path><path d="M169.3125,123.625v29.5625c0,8.90559 -7.21941,16.125 -16.125,16.125h-37.625c-8.90559,0 -16.125,-7.21941 -16.125,-16.125v-29.5625z" fill="#333333"></path><path d="M120.9375,8.0625v5.375h8.0625l2.6875,5.375h5.375l2.6875,-5.375h8.0625v-5.375z" fill="#cccccc"></path><rect x="37" y="24" transform="scale(2.6875,2.6875)" width="5" height="22" fill="#cccccc"></rect><path d="M138.48688,29.5625c-14.14013,0.01186 -25.60002,11.47174 -25.61187,25.61188v9.32562h-13.4375v-8.0625c-0.00786,-7.1301 2.82109,-13.97043 7.86283,-19.01217c5.04174,-5.04174 11.88207,-7.87069 19.01217,-7.86283z" fill="#333333"></path><path d="M168.37188,158.5625c-2.26274,6.44601 -8.35276,10.75753 -15.18437,10.75h-37.625c-8.90559,0 -16.125,-7.21941 -16.125,-16.125v-29.5625h13.4375c0,19.29545 15.64205,34.9375 34.9375,34.9375z" fill="#333333"></path><path d="M161.25,83.3125c-2.96853,0 -5.375,-2.40647 -5.375,-5.375v-5.375c0,-2.96853 2.40647,-5.375 5.375,-5.375c2.96853,0 5.375,2.40647 5.375,5.375v5.375c0,2.96853 -2.40647,5.375 -5.375,5.375z" fill="#000000"></path><path d="M5.77813,137.57313l7.65938,10.23937v10.75l-7.65937,10.23937c-1.88589,-0.88545 -3.09022,-2.78097 -3.09062,-4.86437v-21.5c0.0004,-2.08341 1.20474,-3.97893 3.09063,-4.86437z" fill="#333333"></path><path d="M83.3125,142.4375v21.5c-0.00567,2.08187 -1.20836,3.97481 -3.09063,4.86437l-7.65937,-10.23937v-10.75l7.65937,-10.23937c1.88589,0.88545 3.09022,2.78097 3.09063,4.86437z" fill="#333333"></path><path d="M77.9375,169.3125h-69.875c-0.78941,-0.00318 -1.56875,-0.17739 -2.28437,-0.51063l7.65938,-10.23937v-5.375h59.125v5.375l7.65937,10.23937c-0.71563,0.33324 -1.49497,0.50744 -2.28437,0.51063z" fill="#cccccc"></path><path d="M80.22188,137.57313l-7.65937,10.23937v5.375h-59.125v-5.375l-7.65937,-10.23937c0.71563,-0.33324 1.49497,-0.50744 2.28437,-0.51063h69.875c0.78941,0.00318 1.56875,0.17739 2.28437,0.51063z" fill="#cccccc"></path><rect x="5" y="55" transform="scale(2.6875,2.6875)" width="22" height="2" fill="#cccccc"></rect><rect x="5" y="57" transform="scale(2.6875,2.6875)" width="22" height="2" fill="#ffffff"></rect><path d="M150.5,28.01988v-19.95737c0,-4.4528 -3.6097,-8.0625 -8.0625,-8.0625h-16.125c-4.4528,0 -8.0625,3.6097 -8.0625,8.0625v19.95738c-8.33199,2.38483 -15.20474,8.29344 -18.8125,16.17338c-3.60776,-7.87994 -10.48051,-13.78854 -18.8125,-16.17338v-19.95737c0,-4.4528 -3.6097,-8.0625 -8.0625,-8.0625h-16.125c-4.4528,0 -8.0625,3.6097 -8.0625,8.0625v19.95738c-12.70494,3.61374 -21.47741,15.20876 -21.5,28.41763v16.125h5.375v-5.375h64.5v53.75h-64.5v-43h-5.375v53.75h5.375v-5.375h64.5v26.875c0.00378,4.505 -2.2533,8.71127 -6.00925,11.19881l2.97506,4.47737c2.33397,-1.56074 4.289,-3.62412 5.72169,-6.03881c3.38835,5.68038 9.51081,9.16406 16.125,9.17513h37.625c10.38495,-0.01185 18.80065,-8.42755 18.8125,-18.8125v-96.75c-0.02259,-13.20886 -8.79506,-24.80388 -21.5,-28.41762zM126.3125,5.375h16.125c1.48427,0 2.6875,1.20323 2.6875,2.6875v2.6875h-5.375c-1.02347,-0.00559 -1.96127,0.57064 -2.41875,1.48619l-1.92963,3.88881h-2.05325l-1.92962,-3.88881c-0.45748,-0.91555 -1.39528,-1.49177 -2.41875,-1.48619h-5.375v-2.6875c0,-1.48427 1.20323,-2.6875 2.6875,-2.6875zM123.625,16.125h3.71412l1.94306,3.88881c0.45533,0.9112 1.38668,1.48666 2.40531,1.48619h5.375c1.02347,0.00559 1.96127,-0.57064 2.41875,-1.48619l1.92963,-3.88881h3.71412v10.88706c-0.88688,-0.08062 -1.77912,-0.13706 -2.6875,-0.13706h-16.125c-0.90838,0 -1.80063,0.05644 -2.6875,0.13706zM126.3125,32.25h16.125c13.35163,0.01629 24.17121,10.83587 24.1875,24.1875v5.375h-64.5v-5.375c0.01629,-13.35163 10.83587,-24.17121 24.1875,-24.1875zM56.4375,5.375h16.125c1.48427,0 2.6875,1.20323 2.6875,2.6875v2.6875h-5.375c-1.01863,-0.00047 -1.94998,0.57499 -2.40531,1.48619l-1.94306,3.88881h-2.05325l-1.92963,-3.88881c-0.45748,-0.91555 -1.39528,-1.49177 -2.41875,-1.48619h-5.375v-2.6875c0,-1.48427 1.20323,-2.6875 2.6875,-2.6875zM53.75,16.125h3.71413l1.94306,3.88881c0.45533,0.9112 1.38668,1.48666 2.40531,1.48619h5.375c1.01863,0.00047 1.94998,-0.57499 2.40531,-1.48619l1.94306,-3.88881h3.71413v10.88706c-0.88687,-0.08062 -1.77912,-0.13706 -2.6875,-0.13706h-16.125c-0.90837,0 -1.80063,0.05644 -2.6875,0.13706zM32.25,61.8125v-5.375c0.01629,-13.35163 10.83587,-24.17121 24.1875,-24.1875h16.125c13.35163,0.01629 24.17121,10.83587 24.1875,24.1875v5.375zM153.1875,166.625h-37.625c-7.41764,-0.00889 -13.42861,-6.01986 -13.4375,-13.4375v-26.875h5.375v-5.375h-5.375v-53.75h64.5v53.75h-43v5.375h43v26.875c-0.00889,7.41764 -6.01986,13.42861 -13.4375,13.4375z" fill="#000000"></path><path d="M77.9375,134.375h-69.875c-4.4528,0 -8.0625,3.6097 -8.0625,8.0625v21.5c0,4.4528 3.6097,8.0625 8.0625,8.0625h69.875c4.4528,0 8.0625,-3.6097 8.0625,-8.0625v-21.5c0,-4.4528 -3.6097,-8.0625 -8.0625,-8.0625zM80.625,142.4375v21.5c-0.01444,0.24107 -0.06238,0.47896 -0.14244,0.70681l-5.23256,-6.97675v-8.96013l5.23256,-6.9875c0.08104,0.23128 0.12899,0.47286 0.14244,0.71756zM5.375,163.9375v-21.5c0.01444,-0.24107 0.06238,-0.47896 0.14244,-0.70681l5.23256,6.97675v8.96013l-5.23256,6.9875c-0.08104,-0.23128 -0.12899,-0.47286 -0.14244,-0.71756zM70.4125,146.2c-0.3489,0.4652 -0.5375,1.03101 -0.5375,1.6125v2.6875h-53.75v-2.6875c0,-0.58149 -0.1886,-1.1473 -0.5375,-1.6125l-4.8375,-6.45h64.5zM15.5875,160.175c0.3489,-0.4652 0.5375,-1.03101 0.5375,-1.6125v-2.6875h53.75v2.6875c0,0.58149 0.1886,1.1473 0.5375,1.6125l4.8375,6.45h-64.5z" fill="#000000"></path><path d="M77.9375,96.75c0,-6.45 -9.34981,-20.31481 -11.22569,-23.0265c-0.52803,-0.68701 -1.34532,-1.08966 -2.21181,-1.08966c-0.86649,0 -1.68378,0.40264 -2.21181,1.08966c-1.87588,2.71169 -11.22569,16.5765 -11.22569,23.0265c0,7.42133 6.01617,13.4375 13.4375,13.4375c7.42133,0 13.4375,-6.01617 13.4375,-13.4375zM56.4375,96.75c0,-2.93475 4.19519,-10.59413 8.0625,-16.641c3.86731,6.04688 8.0625,13.70625 8.0625,16.641c0,4.4528 -3.6097,8.0625 -8.0625,8.0625c-4.4528,0 -8.0625,-3.6097 -8.0625,-8.0625z" fill="#000000"></path><path d="M130.09113,107.38981c2.51447,5.85312 8.79319,9.13634 15.03477,7.86187c6.24158,-1.27447 10.73055,-6.75635 10.74911,-13.12669c0,-6.45 -9.34981,-20.31481 -11.22569,-23.0265c-0.52803,-0.68701 -1.34532,-1.08966 -2.21181,-1.08966c-0.86649,0 -1.68378,0.40264 -2.21181,1.08966c-0.05912,0.086 -0.903,1.31687 -2.09356,3.16319c-2.1165,-3.8559 -4.42621,-7.60256 -6.92031,-11.22569c-0.52803,-0.68701 -1.34532,-1.08966 -2.21181,-1.08966c-0.86649,0 -1.68378,0.40264 -2.21181,1.08966c-1.87587,2.71169 -11.22569,16.5765 -11.22569,23.0265c0.00889,7.41764 6.01986,13.42861 13.4375,13.4375c0.37356,0 0.72563,-0.08062 1.09113,-0.11019zM142.4375,85.49475c3.86731,6.04419 8.0625,13.70625 8.0625,16.63025c0.006,3.71132 -2.52635,6.94563 -6.13073,7.83014c-3.60438,0.88451 -7.34629,-0.81009 -9.05902,-4.10258c4.36926,-2.31383 7.10901,-6.84599 7.12725,-11.79006c-0.14708,-2.10142 -0.67241,-4.15901 -1.55069,-6.07375c0.55094,-0.89763 1.08306,-1.74956 1.55069,-2.494zM120.9375,94.0625c0,-2.93475 4.19519,-10.59413 8.0625,-16.641c3.86731,6.04688 8.0625,13.70625 8.0625,16.641c0,4.4528 -3.6097,8.0625 -8.0625,8.0625c-4.4528,0 -8.0625,-3.6097 -8.0625,-8.0625z" fill="#000000"></path><rect x="42" y="45" transform="scale(2.6875,2.6875)" width="2" height="2" fill="#000000"></rect><path d="M155.875,48.375h5.375c0,-5.93706 -4.81294,-10.75 -10.75,-10.75h-2.6875v5.375h2.6875c2.96853,0 5.375,2.40647 5.375,5.375z" fill="#000000"></path><rect x="58" y="19" transform="scale(2.6875,2.6875)" width="2" height="2" fill="#000000"></rect><path d="M91.375,48.375c0,-5.93706 -4.81294,-10.75 -10.75,-10.75h-2.6875v5.375h2.6875c2.96853,0 5.375,2.40647 5.375,5.375z" fill="#000000"></path><rect x="32" y="19" transform="scale(2.6875,2.6875)" width="2" height="2" fill="#000000"></rect></g></g></svg>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime nemo at corrupti sequi voluptatum? Harum perferendis unde ut saepe iste, soluta culpa a porro quia quis cumque repellat, ex et.</p>
                     </div>
+                </div>
                 </div>  
             </section>
+            <div class="line-right"></div>
+            <section class="section" id="depoimentos">
+                <div class="container">
+                        <header>
+                            <h2>Depoimentos de quem já passou por aqui!</h2>
+                        </header>
+                        <div class="depoimento swiper">
+                            <div class="swiper-wrapper">
+                              <div class="depoimento swiper-slide">
+                                  <blockquote>
+                                      <p>
+                                          <span>&ldquo;</span>
+                                          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut earum nulla necessitatibus et nihil quidem. Eum nam vero, et corrupti suscipit, neque voluptatem, numquam laborum est eius repudiandae sunt voluptates. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis, inventore laudantium nam incidunt quia temporibus atque natus saepe neque assumenda numquam modi delectus voluptatum ratione quos fuga libero maxime exercitationem!
+                                      </p>
+                                      <cite><img src="https://randomuser.me/api/portraits/men/62.jpg" alt="Perry Barrett">
+                                        Perry Barrett
+                                    </cite>
+                                  </blockquote>
+                              </div>
+                              <div class="depoimento swiper-slide">
+                                <blockquote>
+                                    <p>
+                                        <span>&ldquo;</span>
+                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut earum nulla necessitatibus et nihil quidem. Eum nam vero, et corrupti suscipit, neque voluptatem, numquam laborum est eius repudiandae sunt voluptates. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis, inventore laudantium nam incidunt quia temporibus atque natus saepe neque assumenda numquam modi delectus voluptatum ratione quos fuga libero maxime exercitationem!
+                                    </p>
+                                    <cite><img src="https://randomuser.me/api/portraits/men/19.jpg" alt="Bob Beck">
+                                        Bob Beck
+                                  </cite>
+                                </blockquote>
+                              </div>
+                              <div class="depoimento swiper-slide">
+                                <blockquote>
+                                    <p>
+                                        <span>&ldquo;</span>
+                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut earum nulla necessitatibus et nihil quidem. Eum nam vero, et corrupti suscipit, neque voluptatem, numquam laborum est eius repudiandae sunt voluptates. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis, inventore laudantium nam incidunt quia temporibus atque natus saepe neque assumenda numquam modi delectus voluptatum ratione quos fuga libero maxime exercitationem!
+                                    </p>
+                                    <cite><img src="https://randomuser.me/api/portraits/women/74.jpg" alt="Misty Lee">
+                                        Misty Lee
+                                  </cite>
+                                </blockquote>
+                              </div>
+                              <div class="depoimento swiper-slide">
+                                <blockquote>
+                                    <p>
+                                        <span>&ldquo;</span>
+                                          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut earum nulla necessitatibus et nihil quidem. Eum nam vero, et corrupti suscipit, neque voluptatem, numquam laborum est eius repudiandae sunt voluptates. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis, inventore laudantium nam incidunt quia temporibus atque natus saepe neque assumenda numquam modi delectus voluptatum ratione quos fuga libero maxime exercitationem!
+                                    </p>
+                                    <cite><img src="https://randomuser.me/api/portraits/men/0.jpg" alt="Clifford Mcdonalid">
+                                        Clifford Mcdonalid
+                                  </cite>
+                                </blockquote>
+                              </div>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                          </div> 
+                </div>
+            </section>
+
+            <div class="line-left"></div>
+
+            <section class="section" id="contato">
+                <div class="container grid">
+                <div class="text">
+                    <h2>Entre em contato com a gente!</h2>
+                    <p>Entre em contato com a Barbearia do Contoso, queremos tirar suas dúvidas, ouvir suas críticas e segestões.</p>
+                    <a class="button" target="_blank" href="https://api.whatsapp.com/send?phone=+5555999875845&text=Oi! Gostaria de agendar um horário!"><img src="img/27d26873930bb723a9e1ee6de6f5d761.png"></a>
+                </div>
+                <div class="links">
+                    <ul class="grid">
+                        <li><img src="img/chamada-de-smartphone.png" alt="Número de Contato 55 999875845"> 55 9 99875845</li>
+                        <li><img src="img/818752.png" alt=""> Rua Das Ruas, 1234</li>
+                        <li><img src="img/3296467.png" alt=""> contato@contoso.com.br</li>
+                    </ul>
+                    </div>
+                </div>
+                </section>
+                <div class="line-right"></div>
+
+                <footer class="section">
+                    <div class="container grid">
+                    <div class="marca">
+                    <a class="logo" href="#">Barbearia do <span>Contoso</span></a>
+                    <p>©2021 - Barbearia do Contoso.</p>
+                    <p>Todos os direitos reservados.</p>
+                    </div>
+                    <div class="social grid">
+                        <a target="_blank" href="https://pt-br.facebook.com/">
+                            <img src="img/facebook_logos_PNG19753.png" alt="facebook">
+                        </a>
+
+                        <a target="_blank" href="https://www.instagram.com/">
+                            <img src="img/instagram-logo-5744708_1280.png" alt="instagram">
+                        </a>
+
+                        <a target="_blank" href="https://www.youtube.com/?gl=BR&hl=PT">
+                            <img src="img/youtube-logos.png" alt="youtube">
+                        </a>
+
+                    </div>
+                    </div>
+                </footer>
+                <div class="line-right"></div>
+
+                <a href="#home" class="voltar-topo">
+                    <img src="img/53738-200.png" alt="">
+                </a>
     </main>
-    <script src="js/main.js">   </script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
